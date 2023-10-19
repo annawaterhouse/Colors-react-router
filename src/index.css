@@ -20,8 +20,9 @@ body > div {
 }
 
 #navbar {
-  padding: 2em;
+  padding: 4em;
   justify-content: space-evenly;
+  background-color:brown;
 }
 
 #main-section {
@@ -33,6 +34,7 @@ body > div {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .red {
@@ -47,4 +49,26 @@ body > div {
 
 .home {
   background-color: yellow;
+  
+}
+
+.green {
+  background-color:darkgreen;
+}
+
+.footer { 
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  background-color:chocolate;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: fantasy;
+}
+
+h1 {
+  font-family: fantasy;
 }
